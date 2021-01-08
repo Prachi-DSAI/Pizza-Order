@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Fugaz+One&family=Righteous&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body{
+  background-color: #3b424e;
+}
+
+#navbar{
+  background-color: #353b48;
+}
+
+ 
+#navbar td a{
+  color: white;
+}
+
+#offer {
+   color: white;
+}
+#head1{
+  color:white;
+}
+
+#heading{
+     color:white;
+ }
+ 
+ #para{
+    color: white;
+ }
+ 
+ #legend1{
+    color: white;
+ }
+ 
+ #legend2{
+    color: white;
+ }
+ 
+ #field1{
+    height:145%; 
+    width:43%;
+    position:absolute;
+    top:80%;
+    left:8%;
+    border: none;
+    border-left: 2px solid rgba(0, 0, 0, 0.664);
+    z-index: -1;
+ }
+ 
+ #field2{
+    height:145%;
+    width:43%;
+    position:absolute;
+    top:80%;
+    left:54%;
+    border: none;
+    border-left: 2px solid rgba(0, 0, 0, 0.664);
+    z-index: -1;
+ }
+ 
+ #pizza{
+    color: white;
+ }
+ 
+ #pizza1{
+    color: white;
+   }
+   
+ #ing,#ing2{
+    color:white;
+ }
+
+ input[type="checkbox"]:checked+label{
+      color:rgb(11, 149, 212);
+  }
+
+#h1{
+     color: white;
+     background-color:#323741;
+}
+
+.about_t td{
+    color: white;
+}
+
+.divider{
+    border: 1px solid black;
+ }
+ .cart-table{
+   background-color: #414758;
+ }
+ .cart-table td, .cart-table th{
+     color: white;
+ }
+ 
+ #coupon{
+   background-color: rgb(252, 248, 248);
+ }
+ 
+ #apply{
+   color: white;
+   background-color: green;
+ }
+ #apply:hover{
+   background-color: rgb(32, 156, 32);
+   cursor: grab;
+ }
+
+.address-block{
+  background-color:#414758;
+}
+#addrs-heading{color: white;}
+#addrsP{color: white;}   #addrs{border: 1px solid rgb(5, 214, 214);}  
+#cityP{color: white;}    #city{border: 1px solid rgb(5, 214, 214);}
+#stateP{color: white;}   #state{border: 1px solid rgb(5, 214, 214);}
+#pincodeP{color: white;} #pincode{border: 1px solid rgb(5, 214, 214);}
+#phoneNoP{color: white;} #phoneNo{border: 1px solid rgb(5, 214, 214);}
+
+ #a4{
+    background-color: #414758;
+ }
+ 
+ #a1{
+    color:white;
+ }
+ 
+ #detail{
+   color: white;
+ }
+
+ #a3{
+   border: 2px solid rgb(5, 214, 214);
+ }
+ #a03{
+     border: 2px solid rgb(5, 214, 214);
+ }
+
+ #detail-cvv{
+     color: white;
+ }
+ #a003{
+     border: 2px solid rgb(5, 214, 214);
+ }
+ #a003:hover{
+     border: 3px solid rgb(5, 214, 214);
+ }
+
+     
+#dailyoff th {
+    background-color:#414758; 
+    color:white;
+}
+
+#dailyoff a{
+   color: white;
+}
+
+#dailyoff tr:nth-child(even){
+    background-color:#414758;
+    color: white;
+}
+
+.bottom{
+  background-color: #323741;
+}
+
+.contact p{
+  color: white;
+}
+
+.contact p1{
+  color: white;
+}
+
+#info-table, #about1{
+ color: white;
+}

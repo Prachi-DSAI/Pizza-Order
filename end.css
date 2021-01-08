@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+  body{
+      background-color: #f3e2e2;
+  }        
+ .box{
+      background-image: url(images/delivery.jpg);
+      background-repeat: no-repeat;
+      background-color: white;
+      width: 50%;
+      height: 610px;
+      padding: 10px;
+      margin-top: 4%;
+      margin-left: 25%;
+  }
+  #endHead{
+      font-size:320%;
+      text-align: center;
+      font-family: 'Pacifico', cursive ;
+  }
+   #p01{
+       color: rgb(3, 107, 3);
+       font-size: 30px;
+       font-family: 'nunito', sans-serif;
+       font-weight: bolder;
+       margin-left: 28%;
+   }
+   #p02{
+       color: rgb(199, 53, 53);
+       font-size: 25px;
+       font-family: 'nunito';
+       font-weight: 500;
+       position: absolute;
+       top: 88%;
+       left: 36%;
+       margin:0;
+       padding: 10px;
+       border: 2px solid rgb(199, 53, 53);
+       border-right: none;
+   }
+
+
+  .bottom{
+       background-color: rgba(29, 28, 28, 0.986);
+       width: 100%;
+       height: 56%;
+       position: absolute;
+       top: 130%;
+       left: 0;
+     }
+
+   #contact-head{
+       color: white;
+       font-size: 21px;
+       margin-top: 12%;
+       margin-left: 4%;
+    }
+
+   #contact-no{
+      color: white;
+      font-size: 80%;
+      margin-left: 3%;
+     }
+
+   #socialMedia{
+      height:10%;
+      width: 13%;
+      position: absolute;
+      top: 20%;
+      left:79%;
+      margin: 1% 5% 10% 3%;
+    }
+
+   .table_move{
+       position: absolute;
+       top: 19%;
+       left:30%;
+       margin: 0 3% 2% 3% ;
+    }
+
+    #info-table tr th{
+      font-size: 21px;
+    }
+
+    #info-table , #about1{
+      color: white;
+      width: 500px;
+      height: 159px;
+      text-decoration: none;
+    }
+
+    #about1:hover{
+       cursor: grab;
+    }
+
+    #info-table tr{
+       text-align: left;
+       font-size: 14px;
+     }

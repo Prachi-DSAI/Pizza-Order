@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Fugaz+One&family=Righteous&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body{
+  background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(images/logo.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#navbar{
+  background-color:white;
+  border-radius: 0 0 13% 13%;
+  height: 16%;
+  width:100%;
+  position: fixed;
+  top: 0;
+  left:0;
+  transition: top 0.1s;
+}
+ 
+#nav-table{
+  width:50%;
+  height: 40%;
+  margin-top: 2%;
+  padding: 0;
+  float:right;
+}
+
+#navbar td{
+  padding-left:1%;
+}
+ 
+#navbar td a{
+  font-family: 'Righteous', cursive;
+  font-size: 100%;
+  font-weight: lighter;
+  margin-left: 25%;
+  text-decoration: none;
+  color: black;
+}
+#navbar a:hover{
+  cursor: grab;
+}
+ 
+#navLogo{
+  height:120% ;
+  width: 13%;
+  position: absolute;
+  top: -10px;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  z-index: 1;
+}    
+
+#h1{
+  font-family: 'Nunito', sans-serif;
+   color: black;
+   text-align: center;
+   word-spacing: 15px;
+   z-index: -1;
+   position: relative;
+   top: 24%;
+   left: 10%;
+   background-color:white;
+   width: 80%;
+   height: 230%;
+   margin: 0;
+}
+
+.about_t{
+  width: 75%;
+  height: 150%;
+  position: absolute;
+  top:40%;
+  left:5%;
+  margin-left: 7%;
+  z-index: -1;
+}
+
+.about_t td{
+ font-family:'Nunito', sans-serif;
+ text-align: left;
+ width:12%;
+ color: black;
+ font-size:110%;
+ line-height: 30px;
+ word-spacing: 3px;
+}
+
+.bottom{
+  background-color: rgba(29, 28, 28, 0.986);
+  width: 100%;
+  height: 68%;
+  position: absolute;
+  top: 280%;
+  left: 0;
+}
+
+.contact p{
+  color: white;
+  font-size: 21px;
+  margin-top: 12%;
+  margin-left: 4%;
+}
+
+.contact p1{
+  color: white;
+  font-size: 80%;
+  margin-left: 3%;
+}
+
+#socialMedia{
+    height:10%;
+    width: 13%;
+    position: absolute;
+    top: 20%;
+    left:79%;
+    margin: 1% 5% 10% 3%;
+}
+
+.table_move{
+  position: absolute;
+  top: 19%;
+  left:30%;
+  margin: 0 3% 2% 3% ;
+}
+
+#info-table tr th{
+ font-size: 21px;
+}
+
+#info-table , #about1{
+ color: white;
+ width: 500px;
+ height: 159px;
+ text-decoration: none;
+}
+
+#about1:hover{
+  background-color: black;
+  cursor: grab;
+  width: auto;
+}
+
+#info-table tr{
+ text-align: left;
+ font-size: 14px;
+}
+
+
+
+

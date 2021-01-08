@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Fugaz+One&family=Righteous&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+body{
+  background-color: rgb(230, 225, 219);
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#navbar{
+  background-color: white;
+  border-radius: 0 0 13% 13%;
+  height: 16%;
+  width:100%;
+  position: fixed;
+  top: 0;
+  left:0;
+  transition: top 0.1s;
+  z-index: 1;
+}
+ 
+#nav-table{
+  width:50%;
+  height: 40%;
+  margin-top: 2%;
+  padding: 0;
+  float:right;
+}
+ 
+#navbar td a{
+  font-family: 'Righteous', cursive;
+  font-size: 100%;
+  font-weight: lighter;
+  margin-left: 25%;
+  text-decoration: none;
+  color: black;
+  text-align: left;
+}
+
+#navbar a:hover{
+  cursor: grab;
+}
+ 
+#navLogo{
+  height:120% ;
+  width: 13%;
+  position: absolute;
+  top: -10px;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  z-index: 1;
+}    
+
+#starter{
+  position: absolute;
+  top: 12%;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+ }
+ 
+#offer {
+   z-index: -1;
+   color: black;
+   text-decoration: none;
+   font-family: 'Pacifico', cursive;
+   font-size: 25px;
+   position: absolute;
+   top:77%;
+   left: 7%;
+}
+#offer:hover{
+  background-color: transparent;
+}
+
+#header{
+  border-radius: 19px;
+  margin-top: 60%;
+  margin-left: 15%;
+}
+  
+#head1{
+  font-family:'Luckiest Guy', cursive;;
+  font-size: 240%;
+  color:white;
+  transform: translateY(-190%);
+  margin-left: 18%;
+  transform: translateY(-150%);
+}
+
+#pic1{
+  border-radius: 19px;
+  margin-top: -9%;
+  margin-left: 5%;
+  opacity: 0.3;
+}
+
+#pic2{
+  border-radius: 19px;
+  margin-left: 51%;
+  transform: translateY(-101%);
+  opacity: 0.3;
+}
+
+#pic3{
+  border-radius: 19px;
+  margin-top: -23%;
+  margin-left: 5%;
+  opacity: 0.3;
+}
+
+#pic4{
+  border-radius: 19px;
+  margin-left: 51%;
+  transform: translateY(-101%);
+  opacity: 0.3;
+}
+
+#pic1:hover, #pic2:hover, #pic3:hover, #pic4:hover{
+  opacity: 1;
+}
+
+#gify{
+  margin-top: -18%;
+  margin-left: 7%;
+}
+
+#pic5{
+  border-radius: 19px;
+  margin-top: 3%;
+  margin-left: 17%;
+}
+
+#aboutBtn{
+  width: 13%;
+  height: 7%;
+  font-size:20px;
+  font-family:sans-serif;
+  color: white;
+  background-color: rgb(199, 53, 53);
+  border: none;
+  outline:none;
+  position: absolute;
+  top: 380%;
+  left: 42%;
+  z-index: 0;
+}
+
+.bottom{
+  background-color: rgba(29, 28, 28, 0.986);
+  width: 100%;
+  height: 68%;
+  position: absolute;
+  top: 430%;
+  left: 0;
+}
+
+.contact p{
+  color: white;
+  font-size: 21px;
+  margin-top: 12%;
+  margin-left: 4%;
+}
+
+.contact p1{
+  color: white;
+  font-size: 80%;
+  margin-left: 3%;
+}
+
+#socialMedia{
+    height:10%;
+    width: 13%;
+    position: absolute;
+    top: 20%;
+    left:79%;
+    margin: 1% 5% 10% 3%;
+}
+
+.table_move{
+  position: absolute;
+  top: 19%;
+  left:30%;
+  margin: 0 3% 2% 3% ;
+}
+
+#info-table tr th{
+ font-size: 21px;
+}
+
+#info-table, #about1{
+ color: white;
+ width: 500px;
+ height: 159px;
+ text-decoration: none;
+}
+#about1:hover{
+  background-color: black;
+  cursor: grab;
+  width: auto;
+}
+
+#info-table tr{
+ text-align: left;
+ font-size: 14px;
+}
+
+#terms{
+  position:absolute;
+  left:250px;
+  top:2100px;
+  background-color:burlywood;
+  right:250px;
+  border-radius:25px;
+  outline: none;
+ }

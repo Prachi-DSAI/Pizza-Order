@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/381504.jpg) no-repeat left fixed;
+    background-size: cover;
+ }
+
+ img{
+    height:60%;
+    width: 37%;
+    position: absolute;
+    top: 0%;
+    left:45%;
+}
+
+p1{
+    font-family:'Pacifico', cursive;
+    font-size: 460%;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    margin: 0px 10px 0px 10px ;
+}
+
+p1::first-letter{
+    font-size: 160%;
+}
+
+p2{
+    font-family:'Pacifico', cursive;
+    font-size: 150%;
+    color: white;
+    word-spacing: 5px;
+    position: absolute;
+    top: 49%;
+    left: 23%;
+    margin: 0px 10px 0px 10px ;
+}
+
+#btn-order{
+    background-color: black;
+    font-family: 'changa';
+    color: rgb(255, 255, 255);
+    outline: none;
+    height:50px;
+    width: 250px;
+    font-size: 18px;
+    word-spacing: 5px;
+    border:2px solid black;
+    border-radius: 35px;
+    position: absolute;
+    top: 65%;
+    left: 24%;
+}
+
+#btn-order:hover{
+    color:white;
+    background-color: transparent;
+}

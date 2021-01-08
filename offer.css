@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Fugaz+One&family=Righteous&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+body{
+    background-color: rgb(194, 190, 183);
+}
+
+#navbar{
+    background-color: white;
+    border-radius: 0 0 13% 13%;
+    height: 16%;
+    width:100%;
+    position: fixed;
+    top: 0;
+    left:0;
+    transition: top 0.1s;
+ }
+   
+ #nav-table{
+    width:50%;
+    height: 40%;
+    margin-top: 2%;
+    padding: 0;
+    float:right;
+ }
+   
+ #navbar td a{
+    font-family: 'Righteous', cursive;
+    font-size: 100%;
+    margin-left: 25%;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+ }
+ a:hover{
+    cursor: grab;
+ }
+   
+ #navLogo{
+    height:120% ;
+    width: 13%;
+    position: absolute;
+    top: -10px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    z-index: 1;
+ }    
+      
+.table{
+    position: absolute;
+    top:30%; 
+    width:90%;
+    text-align:center;
+    left:10%;
+    z-index: -1;
+}
+
+#cell{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 270%;
+    color:white;
+}
+    
+#dailyoff{
+    width:90%;
+}
+    
+#dailyoff th {
+    background-color:white; 
+    color:rgb(0, 26, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+#dailyoff tr:nth-child(even){
+    background-color:#e8e8e8;
+    color: black;
+}
+    
+#dailyoff tr:nth-child(odd){
+    background-color:rgb(199, 53, 53);
+    color:white;
+}
+    
+#dailyoff,#dailyoff td,#dailyoff th{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2%;
+}
+
+#dailyoff a{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(87, 11, 87);
+}
+
+.bottom{
+    background-color: rgba(29, 28, 28, 0.986);
+    width: 100%;
+    height: 68%;
+    position: absolute;
+    top: 200%;
+    left: 0;
+  }
+  
+  .contact p{
+    color: white;
+    font-size: 21px;
+    margin-top: 12%;
+    margin-left: 4%;
+  }
+  
+  .contact p1{
+    color: white;
+    font-size: 80%;
+    margin-left: 3%;
+  }
+  
+  #socialMedia{
+      height:10%;
+      width: 13%;
+      position: absolute;
+      top: 20%;
+      left:79%;
+      margin: 1% 5% 10% 3%;
+  }
+  
+  .table_move{
+    position: absolute;
+    top: 19%;
+    left:30%;
+    margin: 0 3% 2% 3% ;
+  }
+  
+  #info-table tr th{
+   font-size: 21px;
+  }
+  
+  #info-table , #about1{
+   color: white;
+   width: 500px;
+   height: 159px;
+   text-decoration: none;
+  }
+  
+  #about1:hover{
+    background-color: black;
+    cursor: grab;
+    width: auto;
+  }
+  
+  #info-table tr{
+   text-align: left;
+   font-size: 14px;
+  }
