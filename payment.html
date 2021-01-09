@@ -1,0 +1,108 @@
+<html>
+<head>
+    <title>Payment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="payment.css">
+    <link rel="stylesheet" type="text/css" href="dark-mode.css">
+    <script src="javascript.js"></script>
+</head>
+<body id="c2">
+    <nav id="navbar">
+        <img id="navLogo" src="images/logo.png">
+       <table id="nav-table">
+         <td><a href="index1.html">Home</a></td>  
+         <td><a href="offer.html">Offer</a></td>   
+         <td><a href="menu.html">Order Now</a></td> 
+         <td><a href="about.html">About</a></td> 
+         <td><a href="index.html">SignOut</a></td>  
+       </table>
+    </nav>
+    <table class="cart-table">
+      <tr>
+          <th colspan="2">Your Cart</th>
+      </tr>   
+     <tr>
+       <td style="height: 80px;">1 Double Cheese Pizza, 3 Magherita Pizza,<br>
+         6 Chicken Sausage
+      </td>
+       <td >Rs 859</td>
+     </tr>
+     <tr>
+       <td>Coupon Code</td>
+       <td id="couponValue">NIL</td>
+     </tr>
+     <tr>
+         <td>Total</td>
+         <td id="totalAmount">Rs 859</td>
+     </tr>
+  </table>
+  <div class="cc-block">
+      <input id="Coupon" type="text" placeholder="Coupon Code"></input>
+      <button id="apply" onclick="couponApplied()">Apply</button>
+  </div> 
+    <div class="address-block">
+      <form id="a2">
+        <h1 id="addrs-heading">Billing Address</h1>
+        <p id="addrsP">Address :</p>
+        <textarea id="addrs" type="text"></textarea>
+        <p id="cityP">City :</p>
+        <input id="city" type="text"/>
+        <p id="stateP">State :</p>
+        <input id="state" type="text"/>
+        <p id="pincodeP">Pincode :</p>
+        <input id="pincode" type="text"/>
+        <p id="phoneNoP">Phone Number :</p>
+        <input id="phoneNo" type="text" />
+      </form>    
+    </div>
+      <div id="a4">   
+        <h1 id="a1">Payment Method</h1>
+        <img id="logo" src="images/creditlogo.png">
+        <hr>
+          <form id="a2">
+             <p id="detail">Card Holder Name :</p>
+             <input id="a3" type="text" placeholder="Enter your Name"><br>
+             <p id="detail">Credit Card Number :</p>
+             <input id="a3" type="text" placeholder="XXXX XXXX XXXX XXXX"><br>
+             <p id="detail">Expiry Date :</p>
+             <input type="text" placeholder="MM / YYYY" id="a03">
+             <p1 id="detail-cvv">CVV Number :</p1>
+             <input id="a003"type="text" placeholder="XXX"><br>
+             <br>
+             <br>   
+         </form>
+         <button id="k1" onclick="ty()"><b>Pay</b></button>
+    </div> 
+    <div class="bottom">
+        <img id="socialMedia" src="images/facebook-instagram-twitter-logo.png"/>
+      <div class="table_move">
+        <table id="info-table">
+             <tr>
+               <th>About</th>
+               <th>Our Policies</th>
+               <th>Visit Us</th>
+            </tr>
+            <tr>
+               <td><a id="about1"href="./about.html">About Us</a></td>
+               <td><a id="about1" href="#">Terms & Conditions</a></td>
+               <td><a id="about1" href="#">Locate a Store</a></td>
+            </tr>
+            <tr>
+               <td><a id="about1" href="#">Contactless delivery</a></td>
+               <td><a id="about1" href="#">Responsible disclosure</a></td>
+               <td><a id="about1"href="#">Global Blog</a></td>
+            </tr>
+            <tr>
+               <td><a id="about1" href="#">Nutrition</a></td>
+               <td><a id="about1" href="#">FAQs & Help</a></td>
+               <td></td>
+            </tr>
+        </table>
+      </div>
+      <div class="contact">
+         <p id="contact-head"><b>Our Contact</b></p>
+         <p1 id="contact-no">+91-9235542675 | +91-9235542676</p1>    
+      </div>  
+    </div>   
+</body>
+</html>
